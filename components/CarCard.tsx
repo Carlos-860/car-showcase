@@ -6,18 +6,18 @@ import { CarProps } from '../types'
 import CustomButton from './CustomButton'
 import { calculateCarRent } from '../utils'
 import CarDetails from './CarDetails'
-import { carImages } from '../images'
+// import { carImages } from '../images'
 
-const determineCarImage = (make: string) => {
-    switch (make) {
-    case 'audi':
-        return carImages.Audi.src;
-    case 'aston martin':
-        return carImages.AstonMartin.src;
-    default:
-        return carImages.Hero.src;
-    } 
-}
+// const determineCarImage = (make: string) => {
+//     switch (make) {
+//     case 'audi':
+//         return carImages.Audi.src;
+//     case 'aston martin':
+//         return carImages.AstonMartin.src;
+//     default:
+//         return carImages.Hero.src;
+//     } 
+// }
 
 
 interface CarCardProps {
@@ -50,7 +50,7 @@ const CarCard = ({car}: CarCardProps) => {
         </p>
 
         <div className="relative w-full h-40 my-3 object-contain">
-            <Image src={`${determineCarImage(make)}`} alt="car model" fill priority className='object-contain' />
+            <Image src='/hero.png' alt="car model" fill priority className='object-contain' />
         </div>
 
         <div className="relative flex w-full mt-2">

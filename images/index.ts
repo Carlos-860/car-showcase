@@ -1,12 +1,12 @@
-import AstonMartin from '../public/cars/Aston Martin.png'
-import Audi from '../public/cars/Audi.png'
-import Hero from '../public/hero.png'
+// import AstonMartin from '../public/cars/Aston Martin.png'
+// import Audi from '../public/cars/Audi.png'
+// import Hero from '../public/hero.png'
 
-export const carImages = {
-    AstonMartin,
-    Audi,
-    Hero
-}
+// export const carImages = {
+//     AstonMartin,
+//     Audi,
+//     Hero
+// }
 
 // export const manufacturers = [
 //     "Acura",
